@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koppee Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/icon.png" type="img">
+</head>
+
+<body>
+
+  <!-- Split Modern Header -->
+  <nav class="navbar navbar-expand-lg navbar-split-classic shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <span style="font-size: 2rem; margin-right: 0.5rem;">☕</span>
+        <span class="brand-text-classic">Koppee Shop</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link nav-classic-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link nav-classic-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link nav-classic-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link nav-classic-link" href="#contact">Contact</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Split Modern Header -->
+
+  <!-- home -->
+
+  <div id="home">
+    <div class="text-hero">
+      <h1 class="large-text">Welcome to <span style="font-style: italic; color: #F8F9FA;" class="large-text">#Koppee
+          Shop</span> </h1>
+      <h5 class="sub-txt"><i>"Where every sip inspires a new story."</i></h5>
+      <h5 class="sub-txt-sm">Awaken your senses—discover the art of coffee at Koppee Shop.</h5>
+
+
+      <button type="button" class="btn btn-light ord-view btn-unique mt-4">View Menu</button>
+      <script>
+        document
+          .getElementsByClassName("ord-view")
+          .addEventListener("click", function () {
+            window.location.href = "#menu";
+          });
+      </script>
+    </div>
+  </div>
+
+  <!-- About us -->
+
+  <div id="about" class="padsec">
+    <center style="padding-top: 30px;">
+      <h1 class="large-text fancy-heading">About us</h1>
+    </center>
+    <center>
+      <div class="row">
+        <div class="col-lg-6">
+          <h6 id="aus">
+            At Koppee Shop, every cup tells a story. We’re more than just a coffee shop—we’re a community hub where
+            friends gather, ideas spark, and moments are savored. Our passion for coffee drives us to source the finest
+            beans, roast them to perfection, and craft each beverage with care and creativity. Whether you’re seeking a
+            quiet corner to unwind, a lively space to connect, or simply the best brew in town, Koppee Shop welcomes you
+            with open arms and a warm smile. Step inside, and let us make your day extraordinary—one sip at a time.
+          </h6>
+        </div>
+        <div class="col-lg-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/car1.jpg" class="d-block w-100" alt="Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/car0.jpg" class="d-block w-100" alt="Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/car2.jpg" class="d-block w-100" alt="Slide 3">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/car4.jpg" class="d-block w-100" alt="Slide 4">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/car6.jpg" class="d-block w-100" alt="Slide 5">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+          </div>
+        </div>
+    </center>
+  </div>
+
+  <!-- Menu -->
+
+  <div id="menu" class="padsec">
+
+    <div class="espresso-delights" id="espresso-delights">
+      <center>
+        <h1 class="large-text fancy-heading">Menu</h1>
+      </center>
+      <center>
+        <h3 class="categ">List of Coffees</h3>
+      </center>
+      <hr>
+
+      <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/esprs.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Espresso</h5>
+              <p class="card-text c-txt">Bold, rich, and intensely flavorful shot of pure coffee energy.</p>
+              <a href="#" class="btn btn-primary">₹50</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Cortado</h5>
+              <p class="card-text c-txt">Smooth espresso diluted with hot water for a milder tasted people.</p>
+              <a href="#" class="btn btn-primary">₹40</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/cappucino.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Cappuccino</h5>
+              <p class="card-text c-txt">Espresso topped with velvety frothed milk and a dusting of cocoa.</p>
+              <a href="#" class="btn btn-primary">₹80</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/latte.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Latte</h5>
+              <p class="card-text c-txt">Creamy espresso with steamed milk, perfect for a smooth sip.</p>
+              <a href="#" class="btn btn-primary">₹70</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/moocha.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Mocha</h5>
+              <p class="card-text c-txt">A delightful mix of espresso, rich chocolate, and perfectly steamed milk.</p>
+              <a href="#" class="btn btn-primary">₹80</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/macchiato.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Macchiato</h5>
+              <p class="card-text c-txt">Espresso with a splash of frothy milk, delivering a bold coffee experience.</p>
+              <a href="#" class="btn btn-primary">₹60</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/flatwhite.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Falt White</h5>
+              <p class="card-text c-txt">Smooth espresso with microfoam milk, a barista’s personal favorite.</p>
+              <a href="#" class="btn btn-primary">₹60</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/irishcoffee.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Irish Coffee</h5>
+              <p class="card-text c-txt">Rich blend of espresso, whiskey, and lightly whipped cream topping.</p>
+              <a href="#" class="btn btn-primary">₹50</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/clatte.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Caramel Latte</h5>
+              <p class="card-text c-txt">Espresso, steamed milk, and a deliciously sweet caramel drizzle.</p>
+              <a href="#" class="btn btn-primary">₹70</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/vafg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title car-tle">Vanilla Affogato</h5>
+              <p class="card-text c-txt">A scoop of vanilla ice cream drenched in freshly brewed espresso.</p>
+              <a href="#" class="btn btn-primary">₹80</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tea-more" id="tea-more">
+        <center>
+          <h3 class="categ">Tea & More</h3>
+        </center>
+        <hr>
+
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/gt.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Green Tea</h5>
+                <p class="card-text c-txt">Light, refreshing, and packed with antioxidants for a healthy boost.</p>
+                <a href="#" class="btn btn-primary">₹30</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/chai.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Chai Latte</h5>
+                <p class="card-text c-txt">A warm, spiced tea blended with rich milk and fragrant cinnamon.</p>
+                <a href="#" class="btn btn-primary">₹40</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/hotchocolate.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Hot Chocolate</h5>
+                <p class="card-text c-txt">Smooth, creamy, and deeply chocolatey for a cozy indulgent sip.</p>
+                <a href="#" class="btn btn-primary">₹60</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/mlatte.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Matcha Latte</h5>
+                <p class="card-text c-txt">Creamy and earthy Japanese green tea with steamed milk.</p>
+                <a href="#" class="btn btn-primary">₹40</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/egt.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Earl Grey Tea</h5>
+                <p class="card-text c-txt">Fragrant black tea infused with bright citrus and rich bergamot.</p>
+                <a href="#" class="btn btn-primary">₹30</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/pprmnt.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Peppermint Tea</h5>
+                <p class="card-text c-txt">Cool, soothing herbal tea with a crisp and natural minty zest.</p>
+                <a href="#" class="btn btn-primary">₹30</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/htea.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Hibiscus Tea</h5>
+                <p class="card-text c-txt">Tart, floral, and deeply refreshing with natural fruity sweetness</p>
+                <a href="#" class="btn btn-primary">₹30</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/tlat.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Turmeric Latte</h5>
+                <p class="card-text c-txt">Warm, golden spiced milk blended with turmeric and cinnamon.</p>
+                <a href="#" class="btn btn-primary">₹40</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/lht.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Lemon Honey Tea</h5>
+                <p class="card-text c-txt">Comforting citrus tea infused with pure honey for gentle relief.</p>
+                <a href="#" class="btn btn-primary">₹30</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/rmt.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title car-tle">Rose Milk Tea</h5>
+                <p class="card-text c-txt">Aromatic, floral, and creamy with delicate hints of fresh roses.</p>
+                <a href="#" class="btn btn-primary">₹50</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="tea-more">
+          <center>
+            <h3 class="categ" id="bites-n-treats">Bites & Treats</h3>
+          </center>
+          <hr>
+
+          <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/croissant.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Croissant</h5>
+                  <p class="card-text c-txt">Buttery, flaky, and perfectly crisp for a golden, delicate bite.</p>
+                  <a href="#" class="btn center btn-primary">₹60</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/bbmf.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Blueberry Muffin</h5>
+                  <p class="card-text c-txt">Soft, moist, and loaded with plump blueberries for sweetness.</p>
+                  <a href="#" class="btn btn-primary">₹50</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/avctost.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Avocado Toast</h5>
+                  <p class="card-text c-txt">Crunchy toast topped with creamy avocado and a savory blend.</p>
+                  <a href="#" class="btn btn-primary">₹40</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/hbtst.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Honey Butter Toast</h5>
+                  <p class="card-text c-txt">Crispy toast drizzled with rich honey and creamy melted butter.</p>
+                  <a href="#" class="btn btn-primary">₹40</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/bnbrd.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Banana Bread</h5>
+                  <p class="card-text c-txt">Soft, moist, and sweet with natural banana and nutty flavors.</p>
+                  <a href="#" class="btn btn-primary">₹30</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/pncks2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Pancakes</h5>
+                  <p class="card-text c-txt">Fluffy, golden pancakes served with syrup and a buttery finish.</p>
+                  <a href="#" class="btn btn-primary">₹70</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/abosc.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Almond Biscotti</h5>
+                  <p class="card-text c-txt">Crunchy, nutty, and lightly sweet, perfect for dipping hot coffee.</p>
+                  <a href="#" class="btn btn-primary">₹80</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/chdanish.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Cheese Danish</h5>
+                  <p class="card-text c-txt">Soft, flaky pastry filled with rich, creamy, and tangy cheese.</p>
+                  <a href="#" class="btn btn-primary">₹50</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/pmpspkmfns.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Pumpkin Spice Muffin</h5>
+                  <p class="card-text c-txt">Comforting citrus tea infused with pure honey for gentle relief.</p>
+                  <a href="#" class="btn btn-primary">₹30</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/pbtrtst.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title car-tle">Peanut Butter Toast</h5>
+                  <p class="card-text c-txt">Crispy toast slathered with smooth peanut butter richness.</p>
+                  <a href="#" class="btn btn-primary">₹60</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact us  -->
+      <div id="contact">
+        <!-- Stacked Centered Footer -->
+        <footer class="footer-stacked-classic mt-5">
+          <div class="container py-4 text-center">
+            <div class="footer-socials-classic mb-2 d-flex justify-content-center gap-3">
+              <a href="https://www.instagram.com/chandra_official_22/" class="footer-social-img" title="Instagram"
+                target="_blank" rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"
+                  class="footer-social-img-icon">
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100054964073689" class="footer-social-img"
+                title="Facebook" target="_blank" rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"
+                  class="footer-social-img-icon">
+              </a>
+              <a href="https://github.com/itsmechand" class="footer-social-img" title="GitHub" target="_blank"
+                rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub"
+                  class="footer-social-img-icon">
+              </a>
+              <a href="https://www.linkedin.com/in/chandra-gollaprolu/" class="footer-social-img" title="LinkedIn"
+                target="_blank" rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"
+                  class="footer-social-img-icon">
+              </a>
+            </div>
+            <div class="footer-contact-classic mb-2">
+              <span class="footer-icon-classic">📍</span> Chirala, Andhra Pradesh, India &nbsp;|
+              <span class="footer-icon-classic mx-2">📧</span> koppeeshop@gmail.com &nbsp;|
+              <span class="footer-icon-classic mx-2">📞</span> +91 7093624856
+            </div>
+            <div class="footer-copy-classic">&copy; 2025 Koppee Shop. All Rights Reserved.</div>
+            <div class="footer-copy-classic">Developed by <a href="https://itsmechand.github.io/Portfolio2/"
+                target="_blank" rel="noopener" style="color:#f4d35e;text-decoration:none;">Chandra Sekhar</a></div>
+          </div>
+        </footer>
+        <!-- End Stacked Centered Footer -->
+      </div>
+
+</body>
+
+</html>
